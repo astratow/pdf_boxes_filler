@@ -40,16 +40,17 @@ pip install PyPDF2 reportlab
 
 ```bash
 python script_name.py
+```
 
 ## Specify Input File:
 ```bash
 python script_name.py -i my_input.pdf
-
+```
 ## Specify Output File:
 
 ```bash
 python script_name.py -i my_input.pdf -o my_output.pdf  
-
+```
 ## Handle Overwrite: If the specified output file already exists, the script will prompt you:
 
 - Choose Y to overwrite the file.
@@ -63,7 +64,8 @@ Here is an example of the text box data structure used:
 boxes = [  
     {'name': 'example-box', 'x': 100, 'y': 200, 'text': "Sample Text", 'font_size': 12, 'font_color': (0, 0, 0)},  
     # Add more boxes as needed  
-]  
+]
+```
 ## Notes
 - Ensure the input PDF file exists and is accessible before running the script.
 - Modify the page dimensions in the canvas initialization if your PDF has a custom size.
